@@ -162,3 +162,22 @@ margin: 10px 0px ;
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
 }
+
+.img__wrap:hover .div_with_opacity	 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+  font-size: 2vw;
+  background-color: #4358ff;
+  padding:2%;
+  border-radius: 10px;
+
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
