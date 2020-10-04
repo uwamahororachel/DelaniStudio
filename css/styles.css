@@ -115,3 +115,23 @@ font-size: 4vh;
 	margin: 0px;
 }
 
+
+/***************** Portfolio *********************/
+
+.portfolio{
+	padding: 30px 0px;
+}
+.portfolio h1{
+	text-align: center;
+}
+.portfolio_container{
+	width: 80%;
+	margin: 0px auto;
+}
+.port_div{
+display: flex;
+
+ flex-wrap: wrap;
+align-items: center;
+  justify-content: space-between;
+}
