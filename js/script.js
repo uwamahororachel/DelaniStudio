@@ -48,4 +48,29 @@
 
 
 
+   //Form Validation
+        $("form.form").on('submit',function(event){
+            event.preventDefault();
+            var name = $("input.name").val();
+            var email = $("input.name").val();
+            var message = $("textarea.message").val();
+
+            if ($("input.name").val() && $("input.email").val()){
+                alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly...cheers");
+                window.location.href = "index.html";
+                
+                (function($) {
+                    window.fnames = new Array(); 
+                    window.ftypes = new Array();fnames[0]='EMAIL';
+                    ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';
+                    fnames[2]='MMERGE2';ftypes[2]='text';}
+                    (jQuery));
+                var $mcj = jQuery.noConflict(true);
+
+            }
+            else {
+                alert("Please provide your correct name and email!");
+            }
+
+        });
 });
