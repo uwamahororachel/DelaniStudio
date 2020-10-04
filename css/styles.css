@@ -80,7 +80,7 @@ margin: 0px auto;
 
 .about_section div h1{
 	margin: 10px 0px;
-	font-size: 4vh;
+	font-size: 4vw;
 }
 
 
@@ -108,7 +108,7 @@ margin: 0px auto;
 	text-align:center;
 }
 .service h1{
-font-size: 4vh;
+font-size: 4vw;
 }
 .service p{
 	font-size: 1.5vw;
@@ -151,7 +151,7 @@ margin: 10px 0px ;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(222, 222, 222, 0.6);
+  background: rgba(222, 222, 255, 0.6);
   color: #fff;
   visibility: hidden;
   opacity: 0;
