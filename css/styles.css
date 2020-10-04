@@ -1,0 +1,59 @@
+html{
+scroll-behavior: smooth;
+}
+body,html,section,h1,p{
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0px;
+
+}
+h1{
+	font-family: 'Lato', sans-serif;
+}
+p{
+	font-family: 'Roboto Slab', serif;
+}
+
+.home{
+	position: relative;
+	width: 100%;
+	background-color:#fff;
+	
+	}
+.home .background{
+	width: 100%;
+}
+
+.home div{
+	position: absolute;
+    width: 50%;
+    left:24%;
+    right:24%;
+    top: 25%;
+    padding: 10px;
+	text-align:center;
+
+}
+
+.home div .logo{
+width:15%;
+}
+.home div h1{
+	font-size: 4vw;
+	margin-top:5%;
+	color: #fff;
+}
+
+.home div p{
+	color: #fff;
+	font-size: 1vw;
+}
+
+.bouncing_image {
+
+	position: absolute;
+	bottom: 0px;
+	left: 48%;
+    animation: bouncing_image 3s infinite;
+    animation-timing-function: ease-in-out;
+}
