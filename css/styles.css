@@ -57,3 +57,12 @@ width:15%;
     animation: bouncing_image 3s infinite;
     animation-timing-function: ease-in-out;
 }
+
+@keyframes bouncing_image {
+    0%{transform: translateY(0px);}
+    5%{transform: translateY(0px);}
+    25%{transform: translateY(-70px);}
+     50%{transform: translateY(0px);}
+       75%{transform: translateY(-40px);}
+         95%{transform: translateY(0px);}
+}
