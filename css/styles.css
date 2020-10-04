@@ -183,6 +183,26 @@ margin: 10px 0px ;
 }
 
 
+/*********************************** Contact form *******************/
+.contacts {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+}
+
+
+.name::placeholder,
+.email::placeholder, .text::placeholder{
+color: #fff !important;
+
+}
+
+.name, .email, .text{
+	color: #fff !important;
+		margin: 10px;
+	background: transparent !important;
+}
+
+
 
 
 /*********************************** Footer section *******************/
