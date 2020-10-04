@@ -66,3 +66,25 @@ width:15%;
        75%{transform: translateY(-40px);}
          95%{transform: translateY(0px);}
 }
+
+/* ********************** ABOUR Section ***************/
+.about_section{
+	width: 100%;
+padding: 40px 10px;
+text-align: center;
+}
+.about_section div{
+	width: 80%;
+margin: 0px auto;
+}
+
+.about_section div h1{
+	margin: 10px 0px;
+	font-size: 4vh;
+}
+
+
+.about_section div p{
+	margin:10px 0px;
+	font-size: 1.5vw;
+}
